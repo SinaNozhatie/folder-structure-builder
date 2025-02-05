@@ -84,4 +84,4 @@ python structure_builder.py \
 5. Open a Pull Request
 
 ## 📜 License
-MIT © 2023 Your Name
+© 2025 Sina Nozhati
