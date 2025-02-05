@@ -1,0 +1,28 @@
+{
+  "structure": [
+    {
+      "name": "Project_{{n}}",
+      "subfolders": [
+        {
+          "name": "Assets",
+          "subfolders": ["Images", "Videos"]
+        },
+        {
+          "name": "Docs",
+          "files": [
+            { "name": "README_{{n}}.md", "content": "# پروژه شماره {{n}}" },
+            { "name": "LICENSE_{{n}}.txt", "content": "این یک پروژه آزمایشی است." }
+          ]
+        }
+      ],
+      "files": [
+        { "name": "info_{{n}}.txt", "content": "این پروژه در تاریخ {{timestamp}} ایجاد شد." }
+      ],
+      "repeat": {
+        "var": "n",
+        "start": 1,
+        "end": 5
+      }
+    }
+  ]
+}
